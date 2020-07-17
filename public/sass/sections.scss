@@ -1,0 +1,38 @@
+.banner {
+    background: url("https://images.pexels.com/photos/6966/abstract-music-rock-bw.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 70%;
+    height: 60vh;
+
+    form {
+        transform: translate(-50px, 120px);
+
+        input {
+            padding: 17px;
+            min-width: 310px;
+            width: 131%;
+            outline: none;
+
+            &:focus ~ label {
+                transform: translate(20px, -45px);
+                font-weight: 700;
+                letter-spacing: -1px;
+            }
+        }
+        label {
+            transform: translate(20px, 3px);
+            top: 16px;
+            font-size: 16px;
+            pointer-events: none;
+        }
+        button {
+            transform: translateX(220px);
+            background-color: $primary;
+            width: 55px;
+            height: 55px;
+
+            @extend .hoverEffect;
+        }
+    }
+}

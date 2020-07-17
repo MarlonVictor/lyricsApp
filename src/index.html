@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <!--Bootstrap 5--><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../public/sass/main.css">
+    <link rel="icon" href="https://image.flaticon.com/icons/svg/181/181537.svg">
+    <title>Search Lyric</title>
+</head>
+
+<body class="text-white-50">
+    <nav class="navbar navbar-light fixed-top"> <!-- Navbar -->
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+            <img src="https://image.flaticon.com/icons/svg/263/263052.svg" width="60" height="60" alt="Logo" class="align-center pr-2">
+            LyricSearch
+            </a>
+        </div>
+    </nav>
+
+    <section class="banner" id="header"> <!-- Top -->
+        <form class="d-flex justify-content-center align-items-center">
+            <div class="input d-flex flex-column">
+                <input type="text" class="bg-dark text-light border-0 rounded-pill" id="search" autocomplete="off" required>
+                <label class="position-absolute" id="topo">Digite o nome do artista ou da música...</label>
+            </div>
+            <button class="border-0 rounded-circle position-absolute btn">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search text-light" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                    <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                </svg>
+            </button>
+        </form>
+    </section>
+</body>
+</html>

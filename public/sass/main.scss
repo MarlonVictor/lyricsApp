@@ -1,0 +1,24 @@
+// Utils
+$primary: #1ED760;
+
+.hoverEffect:hover {
+    filter: brightness(80%);
+}
+
+// Imports
+@import './sections';
+
+// Base
+* {
+    transition: .3s;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #292929;
+}
+
+@media (max-width: 520px) {
+    body{
+        width: 160%;
+    }
+}
