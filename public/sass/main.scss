@@ -16,6 +16,10 @@ $primary: #1ED760;
 body {
     background-color: #292929;
 }
+a {
+    text-decoration: none;
+    outline: none;
+}
 
 @media (max-width: 520px) {
     body{
