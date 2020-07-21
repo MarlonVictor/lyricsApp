@@ -1,0 +1,24 @@
+// Progress bar
+div.bar {
+    display: none;
+    height: 3px;
+    background-color: $primary;
+    z-index: 9999;
+}
+
+// Reticence
+h2 span {
+    color: $primary;
+    padding-left: 5px;
+}
+
+// Btn Up
+#top {
+    display: none;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    color: $primary;
+    
+    @extend .hoverEffect;
+}
