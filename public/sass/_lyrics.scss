@@ -1,0 +1,74 @@
+// list of Songs
+ul.songs {
+    margin: 50px 0 40px;
+    width: 100%;
+    padding: 0;
+
+    li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 650px;
+        margin: 0 auto;
+        padding: 10px;
+    
+        span {
+            text-align: left;
+        }
+        strong { // Artist
+            color:$txt;
+        }
+        a { // Btn Get Lyrics 
+            color:$primary;
+            font-weight: 700;
+            border: 1px solid $primary;
+            padding: 5px 15px;
+    
+            &:hover {
+                color:$txt;
+                border-color:$txt;
+            }
+        }
+    }
+}
+
+// Page btn
+#more { 
+    margin-bottom: 50px;
+    
+    a {
+        color: $primary;
+        background: transparent;
+        border: none;
+    }
+}
+
+#result.lyric {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto 0;
+
+    h2 { // Left
+        text-align: center;
+        width: 45%;
+    }
+    span { // Right
+        text-align: justify;
+        padding: 0 20px;
+        width: 50%;
+    }
+    span#error { // Lyric not Found
+        color: $primary;
+        text-align: center;
+        margin: 0 auto;
+        letter-spacing: 2px;
+    }
+    ul.songs li {
+        transform: translateX(-30px);
+    }
+    .spinner-border {
+        position: absolute;
+        left: 47%;
+        bottom: 17%;
+    }
+}

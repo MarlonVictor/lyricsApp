@@ -1,5 +1,6 @@
 // Utils
 $primary: #1ED760;
+$txt: #ccc;
 
 .hoverEffect:hover {
     filter: brightness(80%);
@@ -8,6 +9,7 @@ $primary: #1ED760;
 // Imports
 @import './sections';
 @import './parts';
+@import './lyrics';
 
 // Base
 * {
@@ -21,9 +23,38 @@ a {
     text-decoration: none;
     outline: none;
 }
+ul {
+    list-style: none;
+}
+button.btn {
+    outline: none;
+}
+h2 strong {
+    color: $primary;
+}
+
+// Media queries
+@media (max-width: 670px) {
+    ul.songs li {
+        width: 460px;
+    }
+    #result.lyric  {
+        flex-direction: column;
+        width: 80%;
+
+        h2 {
+            width: auto;
+            padding-bottom: 30px;
+        }
+    }
+}
 
 @media (max-width: 520px) {
     body{
         width: 160%;
+    }
+    #result.lyric .spinner-border{
+        position: absolute;
+        left: 78%;
     }
 }

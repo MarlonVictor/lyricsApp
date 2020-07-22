@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <!--Bootstrap 5--><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../public/sass/main.css">
+    <link rel="stylesheet" href="../../public/main.css">
     <link rel="icon" href="https://image.flaticon.com/icons/svg/181/181537.svg">
     <title>Search Lyric</title>
 </head>
@@ -35,70 +35,74 @@
         </form>
     </section>
 
-    <section> <!-- About -->
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 order-lg-2">
-                    <div class="p-5">
-                        <img class="rounded-circle img-fluid" src="https://s2.glbimg.com/TnaRibPZRSPPVI4CZhUT3w4k-5Y=/0x0:2000x2000/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/C/B/uEbtoARXya89TBBMk2yw/blurryface-twenty-one-piltots.jpg">
+    <div id="result">
+        <section> <!-- About -->
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5">
+                            <img class="rounded-circle img-fluid" src="https://s2.glbimg.com/TnaRibPZRSPPVI4CZhUT3w4k-5Y=/0x0:2000x2000/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/C/B/uEbtoARXya89TBBMk2yw/blurryface-twenty-one-piltots.jpg">
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-6 order-lg-1">
-                    <div class="p5">                           
-                        <h2 class="display-4">Saiba como o app funciona<span>...</span></h2>
-                        <p>Com esse aplicativo, o você poderá encontrar as letras de seus artistas ou álbuns favoritos. O usuário poderá pesquisar as letras pelo nome da letra ou pelo nome de um artista. Segue abaixo os 5 artistas mais ouvidos no momento!</p>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p5">                           
+                            <h2 class="display-4">Saiba como o app funciona<span>...</span></h2>
+                            <p>Com esse aplicativo, o você poderá encontrar as letras de seus artistas ou álbuns favoritos. O usuário poderá pesquisar as letras pelo nome da letra ou pelo nome de um artista. Segue abaixo os 5 artistas mais ouvidos no momento!</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="text-center"> <!-- Artists  -->
-        <div class="container p-5 artists">
-            <h2 class="mb-5">Veja os artistas mais acessados do momento!</h2>
-            <div class="row">
-                <div class="col-lg-3">
-                    <a href="#header" class="mx-auto mb-5 mb-lg-0 text-white-50">
-                        <img class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVO6AvzXlMOoWHQVOVAodNfkD1YSkvjunDBQ&usqp=CAU" alt="Ed Sheeran">
-                        <h5 class="pl-1 py-3">Ed Sheeran</h5>
-                    </a>
-                </div>
-                <div class="col-lg-3">
-                    <a href="#header" class="mx-auto mb-5 mb-lg-0 text-white-50">
-                        <img class="rounded-circle" src="https://catracalivre.com.br/wp-content/uploads/2018/03/Beyonce-maquiagem-Reproducao-Instagram-beyonce.jpg" alt="Beyoncé">
-                        <h5 class="pl-1 py-3">Beyoncé</h5>
-                    </a>
-                </div>
-                <div class="col-lg-3">
-                    <a href="#header" class="mx-auto mb-5 mb-lg-0 text-white-50">
-                        <img class="rounded-circle" src="https://pbs.twimg.com/profile_images/1047708254447357957/fvJXTeOY_400x400.jpg" alt="Imagine Dragons">
-                        <h5 class="pl-1 py-3">Imagine Dragons</h5>
-                    </a>
-                </div>
-                <div class="col-lg-3">
-                    <a href="#header" class="mx-auto mb-5 mb-lg-0 text-white-50">
-                        <img class="rounded-circle" src="https://minhacapital.com.br/wp-content/uploads/2019/11/Maroon-5-em-Bras%C3%ADlia.jpg" alt="Maroon 5">
-                        <h5 class="pl-1 py-3">Maroon 5</h5>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="text-center bg-light bg-gradient text-body"> <!-- Download -->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 mx-auto p-5 download">
-                    <h2 class="section-heading">Disponivel na marketplace do seu dispositivo!</h2>
-                    <p>Nosso aplicativo está disponível em qualquer dispositivo móvel! Faça o download agora para começar!</p>
-                    <div class="badges d-flex justify-content-center">
-                        <a class="badge-link p-1" href=""><img src="https://user-images.githubusercontent.com/62356988/86818520-dd448180-c05c-11ea-8aed-ba717a45ccad.jpg"></a>
-                        <a class="badge-link p-1" href=""><img src="https://user-images.githubusercontent.com/62356988/86818508-dae22780-c05c-11ea-8eb3-7fa7f0e39a9c.jpg"></a>
+        <section class="text-center"> <!-- Artists  -->
+            <div class="container p-5 artists">
+                <h2 class="mb-5">Veja os artistas mais acessados do momento!</h2>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <a href="#header" class="mx-auto mb-5 mb-lg-0 text-white-50" onclick="searchSongs('Ed Sheeran')">
+                            <img class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVO6AvzXlMOoWHQVOVAodNfkD1YSkvjunDBQ&usqp=CAU" alt="Ed Sheeran">
+                            <h5 class="pl-1 py-3">Ed Sheeran</h5>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#header" class="mx-auto mb-5 mb-lg-0 text-white-50" onclick="searchSongs('Beyonce')">
+                            <img class="rounded-circle" src="https://catracalivre.com.br/wp-content/uploads/2018/03/Beyonce-maquiagem-Reproducao-Instagram-beyonce.jpg" alt="Beyoncé">
+                            <h5 class="pl-1 py-3">Beyoncé</h5>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#header" class="mx-auto mb-5 mb-lg-0 text-white-50" onclick="searchSongs('Imagine Dragons')">
+                            <img class="rounded-circle" src="https://pbs.twimg.com/profile_images/1047708254447357957/fvJXTeOY_400x400.jpg" alt="Imagine Dragons">
+                            <h5 class="pl-1 py-3">Imagine Dragons</h5>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#header" class="mx-auto mb-5 mb-lg-0 text-white-50" onclick="searchSongs('Maroon 5')">
+                            <img class="rounded-circle" src="https://minhacapital.com.br/wp-content/uploads/2019/11/Maroon-5-em-Bras%C3%ADlia.jpg" alt="Maroon 5">
+                            <h5 class="pl-1 py-3">Maroon 5</h5>
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <section class="text-center bg-light bg-gradient text-body"> <!-- Download -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 mx-auto p-5 download">
+                        <h2 class="section-heading">Disponivel na marketplace do seu dispositivo!</h2>
+                        <p>Nosso aplicativo está disponível em qualquer dispositivo móvel! Faça o download agora para começar!</p>
+                        <div class="badges d-flex justify-content-center">
+                            <a class="badge-link p-1" href=""><img src="https://user-images.githubusercontent.com/62356988/86818520-dd448180-c05c-11ea-8aed-ba717a45ccad.jpg"></a>
+                            <a class="badge-link p-1" href=""><img src="https://user-images.githubusercontent.com/62356988/86818508-dae22780-c05c-11ea-8eb3-7fa7f0e39a9c.jpg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="more" class="d-flex justify-content-center align-items-center"></div> <!--Btn next/prev -->
 
     <div class="bar fixed-top show"></div> <!-- Progress bar -->
 
@@ -120,6 +124,7 @@
 
     <script src="../public/scripts/elements.js"></script>
     <script src="../public/scripts/scroll.js"></script>
+    <script src="./api.js"></script>
     <script src="../public/scripts/events.js"></script>
 </body>
 </html>

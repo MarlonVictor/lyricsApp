@@ -22,3 +22,9 @@ h2 span {
     
     @extend .hoverEffect;
 }
+
+// Loader
+.spinner-border {
+    margin: 100px auto 50px;
+    color: $primary;
+}
