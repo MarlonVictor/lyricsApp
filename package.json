@@ -1,0 +1,30 @@
+{
+  "name": "lyricssearch",
+  "version": "1.0.0",
+  "description": "Uma aplicação para buscar letras de músicas, consumindo a API lyrics.ovh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel ./public/scripts/scroll.js -o ./bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarlonVictor/lyricsSearch.git"
+  },
+  "author": "MarlonVictor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarlonVictor/lyricsSearch/issues"
+  },
+  "homepage": "https://github.com/MarlonVictor/lyricsSearch#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-transform-async-to-generator": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/runtime": "^7.10.5",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1"
+  }
+}

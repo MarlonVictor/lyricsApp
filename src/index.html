@@ -5,21 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <!--Bootstrap 5--><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../public/main.css">
+    <link rel="stylesheet" href="../public/main.css">
     <link rel="icon" href="https://image.flaticon.com/icons/svg/181/181537.svg">
-    <title>Search Lyric</title>
+    <title>Lyric App</title>
 </head>
 
-<body class="text-white-50">
+<body class="text-white-50">   
     <nav class="navbar navbar-light fixed-top"> <!-- Navbar -->
         <div class="container">
             <a class="navbar-brand" href="index.html">
             <img src="https://image.flaticon.com/icons/svg/263/263052.svg" width="60" height="60" alt="Logo" class="align-center pr-2">
-            LyricSearch
+            LyricApp
             </a>
         </div>
     </nav>
-
+    
     <section class="banner" id="header"> <!-- Top -->
         <form class="d-flex justify-content-center align-items-center">
             <div class="input d-flex flex-column">
@@ -61,31 +61,31 @@
                     <div class="col-lg-3">
                         <a href="#header" class="mx-auto mb-5 mb-lg-0 text-white-50" onclick="searchSongs('Ed Sheeran')">
                             <img class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVO6AvzXlMOoWHQVOVAodNfkD1YSkvjunDBQ&usqp=CAU" alt="Ed Sheeran">
-                            <h5 class="pl-1 py-3">Ed Sheeran</h5>
+                            <h5 class="py-3">Ed Sheeran</h5>
                         </a>
                     </div>
                     <div class="col-lg-3">
                         <a href="#header" class="mx-auto mb-5 mb-lg-0 text-white-50" onclick="searchSongs('Beyonce')">
                             <img class="rounded-circle" src="https://catracalivre.com.br/wp-content/uploads/2018/03/Beyonce-maquiagem-Reproducao-Instagram-beyonce.jpg" alt="Beyoncé">
-                            <h5 class="pl-1 py-3">Beyoncé</h5>
+                            <h5 class="py-3">Beyoncé</h5>
                         </a>
                     </div>
                     <div class="col-lg-3">
                         <a href="#header" class="mx-auto mb-5 mb-lg-0 text-white-50" onclick="searchSongs('Imagine Dragons')">
                             <img class="rounded-circle" src="https://pbs.twimg.com/profile_images/1047708254447357957/fvJXTeOY_400x400.jpg" alt="Imagine Dragons">
-                            <h5 class="pl-1 py-3">Imagine Dragons</h5>
+                            <h5 class="py-3">Imagine Dragons</h5>
                         </a>
                     </div>
                     <div class="col-lg-3">
                         <a href="#header" class="mx-auto mb-5 mb-lg-0 text-white-50" onclick="searchSongs('Maroon 5')">
                             <img class="rounded-circle" src="https://minhacapital.com.br/wp-content/uploads/2019/11/Maroon-5-em-Bras%C3%ADlia.jpg" alt="Maroon 5">
-                            <h5 class="pl-1 py-3">Maroon 5</h5>
+                            <h5 class="py-3">Maroon 5</h5>
                         </a>
                     </div>
                 </div>
             </div>
         </section>
-
+        
         <section class="text-center bg-light bg-gradient text-body"> <!-- Download -->
             <div class="container">
                 <div class="row">
@@ -121,10 +121,8 @@
             <li class="list-inline-item"><a href="" class="text-white-50">FAQ</a></li>
         </ul>
     </footer>
-
-    <script src="../public/scripts/elements.js"></script>
-    <script src="../public/scripts/scroll.js"></script>
-    <script src="./api.js"></script>
-    <script src="../public/scripts/events.js"></script>
+    
+    <script src="../public/bundle.js"></script>
+    <script src="api.js"></script>
 </body>
 </html>
