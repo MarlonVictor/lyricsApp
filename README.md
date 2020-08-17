@@ -4,12 +4,11 @@
 
 <p align="center">
   <b>Encontre letras de músicas buscando pelo nome, artista ou album!</b> <br><br>
-  <img src="https://img.shields.io/netlify/4633120d-7a26-4054-a615-03752b4b376c?color=%23000&logo=Netlify&style=flat-square">
-  <img src="https://img.shields.io/github/watchers/MarlonVictor/lyricsApp?color=%23000&label=views&logo=GitHub&style=flat-square">
+  <img src="https://img.shields.io/netlify/eae5b073-0213-4c48-821c-b7f56c949e91?color=%23000&logo=Netlify&style=flat-square">
+  <img src="https://img.shields.io/github/stars/MarlonVictor/lyricsApp?color=%23000&style=flat-square&logo=github">
   <img src="https://img.shields.io/github/license/MarlonVictor/lyricsApp?color=%23000&style=flat-square">
 </p>
 
-___
 ## Sobre
 Lyrics App é uma aplicação web simples, projetada para que o usuário busque por letras que automaticamente são exibidas dinamicamente de acordo com a pesquisa.  
 Projeto feito apenas para estudos, aprimorando meu conhecimento em HTML, CSS/SASS, JavaScript e na nova versão do BootStrap.
@@ -37,7 +36,7 @@ Projeto feito apenas para estudos, aprimorando meu conhecimento em HTML, CSS/SAS
 ## Acesse
 * Link do projeto: [LyricsApp](https://applyrics.netlify.app/src/)  
 
-## Como usar
+## Como Rodar
 * Clonar esse repositório. 
 * Ter o LiveServer instalado (plugin do seu editor de código)
 
