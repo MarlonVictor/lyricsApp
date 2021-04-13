@@ -1,5 +1,5 @@
 {
-  "name": "lyricssearch",
+  "name": "lyrics-search",
   "version": "1.0.0",
   "description": "Uma aplicação para buscar letras de músicas, consumindo a API lyrics.ovh",
   "main": "index.js",

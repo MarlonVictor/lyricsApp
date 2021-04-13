@@ -4,13 +4,14 @@
 
 <p align="center">
   <b>Encontre letras de músicas buscando pelo nome, artista ou album!</b> <br><br>
-  <img src="https://img.shields.io/netlify/eae5b073-0213-4c48-821c-b7f56c949e91?color=%23000&logo=Netlify&style=flat-square">
+  <img src="https://img.shields.io/netlify/4a452763-74e3-4ca2-bf09-e5c78c55b85b?color=%23000&logo=Netlify&style=flat-square">
   <img src="https://img.shields.io/github/stars/MarlonVictor/lyricsApp?color=%23000&style=flat-square&logo=github">
   <img src="https://img.shields.io/github/license/MarlonVictor/lyricsApp?color=%23000&style=flat-square">
 </p>
 
 ## Sobre
 Lyrics App é uma aplicação web simples, projetada para que o usuário busque por letras que automaticamente são exibidas dinamicamente de acordo com a pesquisa.  
+  
 Projeto feito apenas para estudos, aprimorando meu conhecimento em HTML, CSS/SASS, JavaScript e na nova versão do BootStrap.
 
 ## Tecnologias Utilizadas
@@ -37,8 +38,20 @@ Projeto feito apenas para estudos, aprimorando meu conhecimento em HTML, CSS/SAS
 * Link do projeto: [LyricsApp](https://applyrics.netlify.app/src/)  
 
 ## Como Rodar
-* Clonar esse repositório. 
-* Ter o LiveServer instalado (plugin do seu editor de código)
+
+### Clone o repositório
+```bash
+$ git clone https://github.com/MarlonVictor/lyricsApp.git
+```
+
+### Executar o projeto
+```bash
+# Vá para a pasta do projeto  
+$ cd lyricsApp
+# Instalar Dependências
+$ npm install
+```
+Utilize o LiveServer (Plugin do seu editor de código)
 
 ## Licença
 Este projeto está sob a licença MIT. Consulte a [LICENÇA](https://github.com/MarlonVictor/lyricApp/blob/master/LICENSE) para obter detalhes.
